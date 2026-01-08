@@ -1,64 +1,62 @@
-# JackyJack Salon Site
+project:
+  name: JackyJack Salon
+  description: >
+    A luxury hair and beauty salon marketing website built with Next.js,
+    focused on refined visuals, modern layout, and premium brand presentation.
 
-Luxury salon marketing site built with Next.js and custom design system styling.
+preview:
+  disclaimer: >
+    All images used in this project are AI-generated and intended solely
+    for design, layout, and concept demonstration purposes.
+    They do not represent real people, clients, or locations.
+  pages:
+    - name: Home
+      image: screenshots/home.png
+    - name: Services
+      image: screenshots/services.png
+    - name: Gallery
+      image: screenshots/gallery.png
+    - name: About
+      image: screenshots/about.png
+    - name: Contact
+      image: screenshots/contact.png
+    - name: Booking
+      image: screenshots/book.png
+    - name: Consultation
+      image: screenshots/consultation.png
+    - name: Policies
+      image: screenshots/policies.png
 
-## Screenshots
+tech_stack:
+  framework: Next.js (App Router)
+  language: TypeScript
+  styling: Custom design system
+  layout: Responsive and mobile-first
+  fonts: Geist (via next/font)
 
-### Home
-![Home](screenshots/home.png)
+getting_started:
+  install_and_run:
+    commands:
+      - npm run dev
+      - yarn dev
+      - pnpm dev
+      - bun dev
+  local_url: http://localhost:3000
+  edit_entry_file: app/page.tsx
+  hot_reload: true
 
-### Services
-![Services](screenshots/services.png)
+notes:
+  - Images are AI-generated for visual presentation only
+  - Suitable for salon, beauty, and lifestyle brand concepts
+  - Designed with a luxury editorial aesthetic in mind
 
-### Gallery
-![Gallery](screenshots/gallery.png)
+deployment:
+  recommended_platform: Vercel
+  links:
+    - https://vercel.com/new
+    - https://nextjs.org/docs/app/building-your-application/deploying
 
-### About
-![About](screenshots/about.png)
-
-### Contact
-![Contact](screenshots/contact.png)
-
-### Book
-![Book](screenshots/book.png)
-
-### Consultation
-![Consultation](screenshots/consultation.png)
-
-### Policies
-![Policies](screenshots/policies.png)
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+author:
+  name: Tanzim
+  github: https://github.com/Tanz2024
+  credit: Made by Tanzim
