@@ -1,60 +1,48 @@
-# JackyJack Salon
+# JackyJack Salon Site
 
-```yaml
-project:
-  name: JackyJack Salon
-  description: >
-    A luxury hair and beauty salon marketing website built with Next.js,
-    focused on refined visuals, modern layout, and premium brand presentation.
+A luxury hair and beauty salon marketing website built with **Next.js** and a custom design system, focused on clean visuals and premium brand presentation.
 
-preview:
-  disclaimer: >
-    All images used in this project are AI-generated and intended solely
-    for design, layout, and concept demonstration purposes.
-    They do not represent real people, clients, or locations.
-  pages:
-    - name: Home
-      image: screenshots/home.png
-    - name: Services
-      image: screenshots/services.png
-    - name: Gallery
-      image: screenshots/gallery.png
-    - name: About
-      image: screenshots/about.png
-    - name: Contact
-      image: screenshots/contact.png
-    - name: Booking
-      image: screenshots/book.png
-    - name: Consultation
-      image: screenshots/consultation.png
-    - name: Policies
-      image: screenshots/policies.png
+---
 
-tech_stack:
-  framework: Next.js (App Router)
-  language: TypeScript
-  styling: Custom design system
-  layout: Responsive and mobile-first
-  fonts: Geist (via next/font)
+## Screenshots
 
-getting_started:
-  install_and_run:
-    commands:
-      - npm run dev
-      - yarn dev
-      - pnpm dev
-      - bun dev
-  local_url: http://localhost:3000
-  edit_entry_file: app/page.tsx
-  hot_reload: true
+> **Note:** All images shown below are **AI-generated** and used strictly for design and layout demonstration purposes.
 
-deployment:
-  platform: Vercel
-  links:
-    - https://vercel.com/new
-    - https://nextjs.org/docs/app/building-your-application/deploying
+### Home
+![Home](screenshots/home.png)
 
-author:
-  name: Tanzim
-  github: https://github.com/Tanz2024
-  credit: Made by Tanzim
+### Services
+![Services](screenshots/services.png)
+
+### Gallery
+![Gallery](screenshots/gallery.png)
+
+### About
+![About](screenshots/about.png)
+
+### Contact
+![Contact](screenshots/contact.png)
+
+### Booking
+![Book](screenshots/book.png)
+
+### Consultation
+![Consultation](screenshots/consultation.png)
+
+### Policies
+![Policies](screenshots/policies.png)
+
+---
+
+## Getting Started
+
+Run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
