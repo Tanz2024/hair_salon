@@ -1,3 +1,6 @@
+# JackyJack Salon
+
+```yaml
 project:
   name: JackyJack Salon
   description: >
@@ -45,13 +48,8 @@ getting_started:
   edit_entry_file: app/page.tsx
   hot_reload: true
 
-notes:
-  - Images are AI-generated for visual presentation only
-  - Suitable for salon, beauty, and lifestyle brand concepts
-  - Designed with a luxury editorial aesthetic in mind
-
 deployment:
-  recommended_platform: Vercel
+  platform: Vercel
   links:
     - https://vercel.com/new
     - https://nextjs.org/docs/app/building-your-application/deploying
